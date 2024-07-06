@@ -1,22 +1,22 @@
-import React, { useState } from 'react'
-import { countries } from '../utils/constants'
+import React from 'react'
+// import { countries } from '../utils/constants'
 
 const Countries = () => {
-    const arr = ['Play cricket', 'Play Video Games', 'Read Book'];
-    const [checked, setChecked] = useState([]);
-    const [newArray, setNewArray] = useState(arr);
-    const handleDelete = (i) => {
-        setNewArray(newArray.filter((item,index) => index !== i));
-    }
-    const handleChecked = (index) => {
-        let itemIndex = checked.indexOf(index);
-        if (itemIndex !== -1) {
-            checked.splice(itemIndex, 1);
-        } else {
-            checked.push(index);
-        }
-        setChecked([...checked]);
-    }
+    // const arr = ['Play cricket', 'Play Video Games', 'Read Book'];
+    // const [checked, setChecked] = useState([]);
+    // const [newArray, setNewArray] = useState(arr);
+    // const handleDelete = (i) => {
+    //     setNewArray(newArray.filter((item,index) => index !== i));
+    // }
+    // const handleChecked = (index) => {
+    //     let itemIndex = checked.indexOf(index);
+    //     if (itemIndex !== -1) {
+    //         checked.splice(itemIndex, 1);
+    //     } else {
+    //         checked.push(index);
+    //     }
+    //     setChecked([...checked]);
+    // }
    
     // const [country, setCountry] = useState('IN');
     return (
