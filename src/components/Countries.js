@@ -46,3 +46,41 @@ const Countries = () => {
 }
 
 export default Countries
+
+
+
+// import React, { useState } from 'react'
+
+// const Head = () => {
+//   const [country, setCountry] = useState([
+//     {key:0, name: 'India', checked:false},
+//     {key:1, name: 'Pakistan', checked:false},
+//     {key:2, name: 'Srilanka', checked:false},
+//   ]);
+//   const handleCheck = (key) => {
+//     country[key].checked = !country[key].checked;
+//     setCountry([...country]);
+//   }
+
+//   const handleDelete = (key) => {
+//     country.splice(key,1);
+//     setCountry([...country]);
+//   }
+//   return (
+//     <div>
+//         {country && country.map((count,key) => {
+//           return (
+//             <ul key={key}>
+//               <input type='checkbox' checked={count.checked} onChange={() => handleCheck(key)}></input> {count.name}
+//               {count.checked ?<span style={{marginLeft:'20px',cursor:'pointer'}} onClick={() => handleDelete(key)}>X</span> :''}
+              
+//             </ul>
+//           );
+//         })}  
+      
+//     </div>
+    
+//   )
+// }
+
+// export default Head
